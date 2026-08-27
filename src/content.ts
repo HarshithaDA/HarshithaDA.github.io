@@ -5,7 +5,7 @@ export const siteContent = {
   email: 'harshitha5anto@gmail.com',
   linkedin: 'https://www.linkedin.com/in/harshitha-devina-anto-9068401ba/',
   github: 'https://github.com/HarshithaDA',
-  resumeHref: 'Harshitha Devina Anto Resume.pdf',
+  resumeHref: '/Harshitha%20Devina%20Anto%20Resume.pdf?v=2',
   about: [
     'I build software and AI projects with a strong focus on clean engineering and practical results.',
     'My work spans full-stack development, computer vision, data-driven applications, and hackathon builds.',
