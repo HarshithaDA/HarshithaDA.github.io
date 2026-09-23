@@ -506,6 +506,7 @@ function App() {
                     {[
                       'Google Cloud Platform (GCP)',
                       'Microsoft Azure',
+                      'Microsoft Copilot Studio',
                       'UiPath',
                       'Microsoft Power BI',
                       'n8n',
@@ -515,6 +516,11 @@ function App() {
                       'Databricks',
                       'Apache Hadoop',
                       'MongoDB',
+                      'Docker',
+                      'Jenkins',
+                      'Git branching',
+                      'Kubernetes',
+                      'Minikube',
                     ].map((skill) => (
                       <span
                         key={skill}
