@@ -171,6 +171,23 @@ export const siteContent = {
 
       ],
     },
+    {
+      category: 'Cloud & DevOps',
+      items: [
+        {
+          title: 'NASA Space Data Application',
+          year: 2026,
+          description: [
+            'Built a Flask web application that explores NASA Near Earth Object and DONKI space weather data through date-based searches.',
+            'Added hazardous asteroid indicators, readable event summaries, loading feedback, and transient service-error retries for a resilient user experience.',
+            'Dockerized the Flask application on port 5000 and configured a Jenkins pipeline with Checkout, build, and Docker build stages.',
+            'Added a GitFlow branching strategy with main, integration, and feature/* branches, plus a two-replica Kubernetes deployment and NodePort service for Minikube.',
+          ],
+          stack: ['Python', 'Flask', 'NASA APIs', 'Docker', 'Jenkins', 'GitFlow', 'Kubernetes', 'Minikube'],
+          href: 'https://github.com/HarshithaDA/NASA-Space-Data-App',
+        },
+      ],
+    },
         {
       category: 'Deep Learning/Machine Learning',
       items: [
