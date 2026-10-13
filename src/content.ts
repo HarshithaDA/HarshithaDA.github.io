@@ -28,7 +28,9 @@ export const siteContent = {
       title: 'Software Developer',
       place: 'Coventus AI Solutions, Richardson, Texas, USA',
       period: 'September 2026 - Present',
-      details: [],
+      details: [
+        'Developing secure AI agents with Microsoft Copilot Studio, Microsoft Fabric, and Microsoft Azure, applying DLP policies and guardrails to support safe, governed enterprise workflows.',
+      ],
       previousRole: {
         title: 'Software Developer Intern',
         period: 'May 2025 - May 2026',
