@@ -29,7 +29,7 @@ export const siteContent = {
       place: 'Coventus AI Solutions, Richardson, Texas, USA',
       period: 'September 2026 - Present',
       details: [
-        'Developing secure AI agents with Microsoft Copilot Studio, Microsoft Fabric, and Microsoft Azure, applying DLP policies and guardrails to support safe, governed enterprise workflows.',
+        'Developing secure AI agents with Microsoft Copilot Studio, Microsoft Fabric, with DLP policies using Microsoft Azure and guardrails to support safe, governed enterprise agent workflows.',
       ],
       previousRole: {
         title: 'Software Developer Intern',
