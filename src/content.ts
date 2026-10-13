@@ -137,6 +137,28 @@ export const siteContent = {
       category: 'Artificial Intelligence',
       items: [
         {
+          title: 'Guardrailed Multi-Agent System',
+          year: 2026,
+          description: [
+            'Built a Planner → Executor → Reviewer workflow with LangGraph and CrewAI for explicit orchestration, approval, and bounded retries.',
+            'Added PydanticAI structured-output validation, a hard maximum of three execution attempts, and a safe fallback kill-switch.',
+            'Implemented persistent Mem0 semantic memory with SQLite history, Chroma vector storage, and Hugging Face embeddings for focused context retrieval.',
+          ],
+          stack: ['LangGraph', 'CrewAI', 'PydanticAI', 'Mem0', 'Python', 'Chroma', 'SQLite', 'Groq'],
+          href: 'https://github.com/HarshithaDA/Guardrailed-Multi-Agent-System',
+        },
+        {
+          title: 'Cloud Monitored RAG',
+          year: 2026,
+          description: [
+            'Developed a secure, observable RAG application that answers grounded questions over enterprise PDF knowledge bases.',
+            'Combined dense vector similarity and BM25 keyword matching in Weaviate, with prompt-injection filtering before retrieval and generation.',
+            'Added Gemini on Vertex AI, Streamlit and Flask interfaces, and OpenTelemetry telemetry for retrieval quality, latency, and token usage.',
+          ],
+          stack: ['Python', 'RAG', 'Gemini', 'Vertex AI', 'Weaviate', 'Streamlit', 'Flask', 'OpenTelemetry'],
+          href: 'https://github.com/HarshithaDA/Cloud_MonitoredRAG',
+        },
+        {
           title: 'CenterMind AI - Hybrid Memory Multi-Agent Platform for Data Centers',
           year: 2026,
           description: [
