@@ -5,7 +5,6 @@ import {
   BrainCircuit,
   Eye,
   ShieldCheck,
-  Code2,
 } from 'lucide-react'
 
 type SectionId = (typeof navigationItems)[number]
@@ -362,27 +361,44 @@ function App() {
 
             </div>
 
-
-
             <div className="mt-8 grid gap-5 md:grid-cols-2 xl:grid-cols-4">
 
-              {/* Software Engineering */}
-              <div className="section-card group p-6 transition-all duration-300 hover:-translate-y-1 hover:border-blue-200 hover:shadow-lg hover:shadow-blue-100/50">
+              {/* Cybersecurity */}
+              <div className="section-card group p-6 transition-all duration-300 hover:-translate-y-1 hover:border-emerald-200 hover:shadow-lg hover:shadow-emerald-100/50">
 
-                <div className="flex h-11 w-11 items-center justify-center rounded-xl border border-blue-100 bg-blue-50 text-blue-600 transition-all duration-300 group-hover:border-blue-200 group-hover:bg-blue-100 group-hover:text-blue-700">
-                  <Code2 className="h-5 w-5" strokeWidth={1.8} />
+                <div className="flex h-11 w-11 items-center justify-center rounded-xl border border-emerald-100 bg-emerald-50 text-emerald-600 transition-all duration-300 group-hover:border-emerald-200 group-hover:bg-emerald-100 group-hover:text-emerald-700">
+                  <ShieldCheck className="h-5 w-5" strokeWidth={1.8} />
                 </div>
 
                 <h3 className="mt-5 text-lg font-semibold text-slate-950">
-                  Software Engineering
+                  Cybersecurity & Secure AI
                 </h3>
 
                 <p className="mt-2 text-sm leading-6 text-slate-600">
-                  Building full-stack applications, APIs, automation workflows,
-                  and reliable software systems.
+                  Building secure applications with practical guardrails, threat-aware
+                  AI workflows, privacy controls, and resilient cloud architectures.
                 </p>
 
               </div>
+
+              {/* Computer Vision */}
+              <div className="section-card group p-6 transition-all duration-300 hover:-translate-y-1 hover:border-purple-200 hover:shadow-lg hover:shadow-purple-100/50">
+
+                <div className="flex h-11 w-11 items-center justify-center rounded-xl border border-purple-100 bg-purple-50 text-purple-600 transition-all duration-300 group-hover:border-purple-200 group-hover:bg-purple-100 group-hover:text-purple-700">
+                  <Eye className="h-5 w-5" strokeWidth={1.8} />
+                </div>
+
+                <h3 className="mt-5 text-lg font-semibold text-slate-950">
+                  Computer Vision
+                </h3>
+
+                <p className="mt-2 text-sm leading-6 text-slate-600">
+                  Applying computer vision and deep learning to real-world problems,
+                  including healthcare and autonomous systems.
+                </p>
+
+              </div>
+
 
 
               {/* AI */}
@@ -404,42 +420,8 @@ function App() {
               </div>
 
 
-              {/* Computer Vision */}
-              <div className="section-card group p-6 transition-all duration-300 hover:-translate-y-1 hover:border-purple-200 hover:shadow-lg hover:shadow-purple-100/50">
-
-                <div className="flex h-11 w-11 items-center justify-center rounded-xl border border-purple-100 bg-purple-50 text-purple-600 transition-all duration-300 group-hover:border-purple-200 group-hover:bg-purple-100 group-hover:text-purple-700">
-                  <Eye className="h-5 w-5" strokeWidth={1.8} />
-                </div>
-
-                <h3 className="mt-5 text-lg font-semibold text-slate-950">
-                  Computer Vision
-                </h3>
-
-                <p className="mt-2 text-sm leading-6 text-slate-600">
-                  Applying computer vision and deep learning to real-world problems,
-                  including healthcare and autonomous systems.
-                </p>
-
-              </div>
 
 
-              {/* Cybersecurity */}
-              <div className="section-card group p-6 transition-all duration-300 hover:-translate-y-1 hover:border-emerald-200 hover:shadow-lg hover:shadow-emerald-100/50">
-
-                <div className="flex h-11 w-11 items-center justify-center rounded-xl border border-emerald-100 bg-emerald-50 text-emerald-600 transition-all duration-300 group-hover:border-emerald-200 group-hover:bg-emerald-100 group-hover:text-emerald-700">
-                  <ShieldCheck className="h-5 w-5" strokeWidth={1.8} />
-                </div>
-
-                <h3 className="mt-5 text-lg font-semibold text-slate-950">
-                  Cybersecurity & Secure AI
-                </h3>
-
-                <p className="mt-2 text-sm leading-6 text-slate-600">
-                  Building secure applications with practical guardrails, threat-aware
-                  AI workflows, privacy controls, and resilient cloud architectures.
-                </p>
-
-              </div>
 
             </div>
 
