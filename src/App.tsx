@@ -506,6 +506,7 @@ function App() {
                     {[
                       'Google Cloud Platform (GCP)',
                       'Microsoft Azure',
+                      'Microsoft Fabric',
                       'Microsoft Copilot Studio',
                       'UiPath',
                       'Microsoft Power BI',
@@ -521,6 +522,8 @@ function App() {
                       'Git branching',
                       'Kubernetes',
                       'Minikube',
+                      'Weaviate',
+                      'Arize Phoenix',
                     ].map((skill) => (
                       <span
                         key={skill}
@@ -560,14 +563,36 @@ function App() {
                     {item.period}
                   </p>
                 </div>
-                <ul className="mt-5 grid gap-3 text-slate-600">
-                  {item.details.map((detail) => (
-                    <li key={detail} className="flex gap-3">
-                      <span className="mt-2 h-2 w-2 rounded-full bg-cyan-500" />
-                      <span>{detail}</span>
-                    </li>
-                  ))}
-                </ul>
+                {item.details.length ? (
+                  <ul className="mt-5 grid gap-3 text-slate-600">
+                    {item.details.map((detail) => (
+                      <li key={detail} className="flex gap-3">
+                        <span className="mt-2 h-2 w-2 rounded-full bg-cyan-500" />
+                        <span>{detail}</span>
+                      </li>
+                    ))}
+                  </ul>
+                ) : null}
+                {item.previousRole ? (
+                  <div className="mt-7 border-t border-slate-200 pt-6">
+                    <div className="flex flex-col gap-3 md:flex-row md:items-start md:justify-between">
+                      <h4 className="text-xl font-semibold tracking-tight text-slate-950 md:text-2xl">
+                        {item.previousRole.title}
+                      </h4>
+                      <p className="inline-flex w-fit rounded-full border border-slate-200 bg-white/80 px-4 py-1.5 text-xs font-semibold uppercase tracking-[0.2em] text-slate-600">
+                        {item.previousRole.period}
+                      </p>
+                    </div>
+                    <ul className="mt-4 grid gap-3 text-slate-600">
+                      {item.previousRole.details.map((detail) => (
+                        <li key={detail} className="flex gap-3">
+                          <span className="mt-2 h-2 w-2 rounded-full bg-cyan-500" />
+                          <span>{detail}</span>
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+                ) : null}
               </article>
             ))}
           </div>

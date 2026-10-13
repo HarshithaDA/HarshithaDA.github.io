@@ -25,13 +25,18 @@ export const siteContent = {
   },
   experience: [
     {
-      title: 'Software Developer Intern',
+      title: 'Software Developer',
       place: 'Coventus AI Solutions, Richardson, Texas, USA',
-      period: 'May 2025 - May 2026',
-      details: [
-        'Developed an AI-powered web automation framework for vBots using Playwright, OpenAI, GPT-4, and Llama LLMs to intelligently extract selectors, automate secure navigation, and retrieve policy documents from insurance carrier portals.',
-        'Integrated Hugging Face embeddings, LlamaIndex, and BeautifulSoup for semantic chunking and natural language query interpretation with LLMs for dynamic selector detection and end-to-end web automation.',
-      ],
+      period: 'September 2026 - Present',
+      details: [],
+      previousRole: {
+        title: 'Software Developer Intern',
+        period: 'May 2025 - May 2026',
+        details: [
+          'Developed an AI-powered web automation framework for vBots using Playwright, OpenAI, GPT-4, and Llama LLMs to intelligently extract selectors, automate secure navigation, and retrieve policy documents from insurance carrier portals.',
+          'Integrated Hugging Face embeddings, LlamaIndex, and BeautifulSoup for semantic chunking and natural language query interpretation with LLMs for dynamic selector detection and end-to-end web automation.',
+        ],
+      },
     },
     {
       title: 'Machine Learning Research Intern',
@@ -153,9 +158,9 @@ export const siteContent = {
           description: [
             'Developed a secure, observable RAG application that answers grounded questions over enterprise PDF knowledge bases.',
             'Combined dense vector similarity and BM25 keyword matching in Weaviate, with prompt-injection filtering before retrieval and generation.',
-            'Added Gemini on Vertex AI, Streamlit and Flask interfaces, and OpenTelemetry telemetry for retrieval quality, latency, and token usage.',
+            'Added Gemini on Vertex AI, Streamlit and Flask interfaces, and Arize Phoenix with OpenTelemetry telemetry for retrieval quality, latency, and token usage.',
           ],
-          stack: ['Python', 'RAG', 'Gemini', 'Vertex AI', 'Weaviate', 'Streamlit', 'Flask', 'OpenTelemetry'],
+          stack: ['Python', 'RAG', 'Gemini', 'Vertex AI', 'Weaviate', 'Arize Phoenix', 'Streamlit', 'Flask', 'OpenTelemetry'],
           href: 'https://github.com/HarshithaDA/Cloud_MonitoredRAG',
         },
         {
@@ -208,6 +213,17 @@ export const siteContent = {
           stack: ['Python', 'Flask', 'NASA APIs', 'Docker', 'Jenkins', 'GitFlow', 'Kubernetes', 'Minikube'],
           href: 'https://github.com/HarshithaDA/NASA-Space-Data-App',
         },
+        {
+          title: 'Cloud Monitored RAG',
+          year: 2026,
+          description: [
+            'Developed a secure, observable RAG application that answers grounded questions over enterprise PDF knowledge bases.',
+            'Combined dense vector similarity and BM25 keyword matching in Weaviate, with prompt-injection filtering before retrieval and generation.',
+            'Added Gemini on Vertex AI, Streamlit and Flask interfaces, and Arize Phoenix with OpenTelemetry telemetry for retrieval quality, latency, and token usage.',
+          ],
+          stack: ['Python', 'RAG', 'Gemini', 'Vertex AI', 'Weaviate', 'Arize Phoenix', 'Streamlit', 'Flask', 'OpenTelemetry'],
+          href: 'https://github.com/HarshithaDA/Cloud_MonitoredRAG',
+        }
       ],
     },
         {
