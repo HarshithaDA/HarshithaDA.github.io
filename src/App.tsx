@@ -335,7 +335,6 @@ function App() {
                   </div>
                 </div>
 
-
                 </div>
 
               </div>
@@ -348,7 +347,9 @@ function App() {
           {/* WHAT I WORK WITH */}
           <div className="mt-20">
 
-            <div className="max-w-3xl">
+            <div className="flex flex-col gap-6 lg:flex-row lg:items-start lg:justify-between">
+
+            <div className="max-w-xl">
 
               <p className="text-sm font-semibold uppercase tracking-[0.2em] text-cyan-700">
                 Areas of Focus
@@ -361,9 +362,9 @@ function App() {
 
             </div>
 
-            <div className="mt-8 grid gap-5 md:grid-cols-2 xl:grid-cols-4">
+            <div className="grid gap-5 md:grid-cols-2 xl:grid-cols-3 lg:flex-1">
 
-              {/* Cybersecurity */}
+            {/* Cybersecurity */}
               <div className="section-card group p-6 transition-all duration-300 hover:-translate-y-1 hover:border-emerald-200 hover:shadow-lg hover:shadow-emerald-100/50">
 
                 <div className="flex h-11 w-11 items-center justify-center rounded-xl border border-emerald-100 bg-emerald-50 text-emerald-600 transition-all duration-300 group-hover:border-emerald-200 group-hover:bg-emerald-100 group-hover:text-emerald-700">
@@ -418,10 +419,6 @@ function App() {
                 </p>
 
               </div>
-
-
-
-
 
             </div>
 
@@ -517,11 +514,13 @@ function App() {
                   </div>
                 </div>
 
-</div>
+              </div>
 
             </div>
 
           </div>
+
+        </div>
 
         </div>
       </section>
