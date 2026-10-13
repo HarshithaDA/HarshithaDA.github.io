@@ -4,7 +4,7 @@ import { FaLinkedinIn, FaGithub } from 'react-icons/fa'
 import {
   BrainCircuit,
   Eye,
-  Workflow,
+  ShieldCheck,
   Code2,
 } from 'lucide-react'
 
@@ -423,20 +423,20 @@ function App() {
               </div>
 
 
-              {/* Automation */}
+              {/* Cybersecurity */}
               <div className="section-card group p-6 transition-all duration-300 hover:-translate-y-1 hover:border-emerald-200 hover:shadow-lg hover:shadow-emerald-100/50">
 
                 <div className="flex h-11 w-11 items-center justify-center rounded-xl border border-emerald-100 bg-emerald-50 text-emerald-600 transition-all duration-300 group-hover:border-emerald-200 group-hover:bg-emerald-100 group-hover:text-emerald-700">
-                  <Workflow className="h-5 w-5" strokeWidth={1.8} />
+                  <ShieldCheck className="h-5 w-5" strokeWidth={1.8} />
                 </div>
 
                 <h3 className="mt-5 text-lg font-semibold text-slate-950">
-                  Intelligent Automation
+                  Cybersecurity & Secure AI
                 </h3>
 
                 <p className="mt-2 text-sm leading-6 text-slate-600">
-                  Combining browser automation, LLMs, semantic search, and APIs to
-                  create smarter automated workflows.
+                  Building secure applications with practical guardrails, threat-aware
+                  AI workflows, privacy controls, and resilient cloud architectures.
                 </p>
 
               </div>
